@@ -10,7 +10,7 @@
 }
 .caja_login{
     width: 50rem;
-    height: 40rem;
+    height: 45rem;
     background-color: #ffffff;
 
     display: flex;
@@ -72,4 +72,60 @@ input{
     color: #fff;
     border-radius: 0.5rem;
     cursor: pointer;
+}
+.contraseñaCorrecta{
+    color: rgb(48, 153, 48);
+    font-size: 13px;
+    margin-top: 1rem;
+    display: none;
+}
+.contraseñaIncorrecta{
+    color: rgb(224, 49, 49);
+    font-size: 13px;
+    margin-top: 1rem;
+    display: none;
+}
+.contraseñaCorrecta2{
+    display: block;
+}
+.contraseñaIncorrecta2{
+    display: block;
+}
+.Nocontraseña{
+    color: rgb(228, 228, 44);
+    font-size: 13px;
+    margin-top: 1rem;
+    display: none;
+}
+.Nocontraseña2{
+    display: block;
+}
+
+
+.contraseñaInputCorrecta{
+    color: rgb(48, 153, 48);
+    font-size: 13px;
+    margin-top: 1rem;
+    display: none;
+}
+.contraseñaInputIncorrecta{
+    color: rgb(224, 49, 49);
+    font-size: 13px;
+    margin-top: 1rem;
+    display: none;
+}
+.contraseñaInputCorrecta2{
+    display: block;
+}
+.contraseñaInputIncorrecta2{
+    display: block;
+}
+.NocontraseñaInput{
+    color: rgb(228, 228, 44);
+    font-size: 13px;
+    margin-top: 1rem;
+    display: none;
+}
+.NocontraseñaInput2{
+    display: block;
 }
